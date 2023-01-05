@@ -8,16 +8,10 @@ import Leads from './pages/Leads'
 
 function AppRoutes () {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Dashboard />} />
         <Route path='/leads' element={<Leads />} />
-
       </Routes>
-      {/* <Route exact path="/about" component={About} />
-      <Route exact path="/lead/:id" component={Lead} />
-      <Route component={NotFound} /> */}
-    </BrowserRouter>
   )
 }
 
